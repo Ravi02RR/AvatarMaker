@@ -16,3 +16,8 @@ This API generates an avatar image with specified name.
   ```bash
   GET /avatar/xyz
   ```
+
+  **DOCKER**:
+  ```bash
+  docker container run -d -p YourPort:3000 ravi848101mnb/avatar-maker:0.0.1.RELEASE
+  ```
